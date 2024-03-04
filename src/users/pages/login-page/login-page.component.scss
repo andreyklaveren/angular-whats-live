@@ -26,11 +26,12 @@
     gap: 5px;
 
     button {
-      border-radius: 4px;
-      color: $font;
-      font-size: 1em;
+      border: none;
       background-color: transparent;
-      border: 1px solid $font;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 }

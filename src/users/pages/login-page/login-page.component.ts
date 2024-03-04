@@ -11,17 +11,24 @@ import { Component } from '@angular/core';
       <div class="user">
         <img src="">
         <span>Nome usuario 1</span>
-        <button (click)="input.click()">im</button>
+        <button (click)="input.click()">
+        <img src="./assets/img/Upload.svg" alt="" srcset="">
+        </button>
       </div>
       <div class="user">
         <img src="">
         <span>Nome usuario 2</span>
-        <button (click)="input.click()">im</button>
+        <button (click)="input.click()">
+          <img src="./assets/img/Upload.svg" alt="" srcset="">
+        </button>
       </div>
+
       <div class="user">
         <img src="">
         <span>Nome usuario 3</span>
-        <button (click)="input.click()">im</button>
+        <button (click)="input.click()">
+        <img src="./assets/img/Upload.svg" alt="" srcset="">
+        </button>
       </div>
     </div>
   `,
